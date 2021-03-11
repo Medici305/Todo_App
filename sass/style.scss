@@ -1,0 +1,41 @@
+// Imports
+@import "./components/top.scss";
+@import "./components/bottom.scss";
+@import "./components/header.scss";
+@import "./components/input.scss";
+@import "./components/container.scss";
+@import "./variables.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font : {
+    size: 18px;
+    family: "Josefin Sans", sans-serif;
+  }
+  color: $Very_Light_Gray;
+}
+
+main {
+  min-height: 100vh;
+}
+
+h1 {
+    font-size: 2rem;
+    letter-spacing: 1.5rem;
+}
+
+i {
+    color: $Dark_Grayish_Blue;
+    pointer-events: none;
+    font-size: 1.55rem;
+    padding: 0 .5rem;
+}
+
+img {
+    cursor: pointer;
+}

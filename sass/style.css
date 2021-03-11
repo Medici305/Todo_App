@@ -1,3 +1,86 @@
+.top {
+  min-height: 40vh;
+  background-image: url("../../images/bg-desktop-dark.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
 
+.bottom {
+  min-height: 60vh;
+  background-color: #161722;
+}
+
+header {
+  min-height: 20vh;
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+form {
+  min-height: 20vh;
+  min-width: 40%;
+  display: flex;
+  align-items: flex-start;
+}
+form button {
+  padding: 1rem;
+  border: none;
+  outline: none;
+  background: #25273c;
+  cursor: pointer;
+  border-top-left-radius: 0.3rem;
+  border-bottom-left-radius: 0.3rem;
+}
+form input {
+  min-width: 90%;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border: none;
+  background: #25273c;
+  padding: 1rem 0;
+  border-top-right-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+  outline: none;
+  color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  font-family: "Josefin Sans", sans-serif;
+  color: #fafafa;
+}
+
+main {
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 2rem;
+  letter-spacing: 1.5rem;
+}
+
+i {
+  color: #777a92;
+  pointer-events: none;
+  font-size: 1.55rem;
+  padding: 0 0.5rem;
+}
+
+img {
+  cursor: pointer;
+}
 
 /*# sourceMappingURL=style.css.map */
