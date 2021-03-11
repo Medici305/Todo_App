@@ -1,0 +1,39 @@
+//Import
+@import "../variables.scss";
+
+.todoContainer {
+  width: 40%;
+  //border: 2px solid #fff;
+  position: absolute;
+  border-radius: 0.2rem;
+  top: 15rem;
+  background: $Dark_Grayish_Blue;
+  height: 60vh;
+  overflow: auto;
+
+  .todo-div {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    background: $Very_Dark_Desaturated_Blue;
+    margin-bottom: 0.1rem;
+    transition: all 0.5s ease-in-out;
+    li {
+      flex: 1;
+      color: white;
+      align-self: center;
+    }
+    .fa-circle {
+      &:hover {
+        color: green;
+      }
+    }
+  }
+}
+
+.complete-btn,
+.trash-btn {
+  background: transparent;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
