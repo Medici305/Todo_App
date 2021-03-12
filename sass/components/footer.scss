@@ -1,0 +1,32 @@
+// Import
+@import "../variables.scss";
+
+.footer {
+  background: $Very_Dark_Desaturated_Blue;
+  padding: 1.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  color: $Very_Dark_Grayish_Blue;
+  font-size: 0.9rem;
+  .center-div {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 40%;
+    > li {
+      cursor: pointer;
+      &:hover {
+        color: $Light_Grayish_Blue_hover;
+      }
+      &:active {
+        color: $Bright_Blue;
+      }
+    }
+  }
+  p {
+    cursor: pointer;
+    &:hover {
+      color: $Light_Grayish_Blue_hover;
+    }
+  }
+}

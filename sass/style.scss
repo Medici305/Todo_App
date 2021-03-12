@@ -3,6 +3,7 @@
 @import "./components/container.scss";
 @import "./components/header.scss";
 @import "./components/input.scss";
+@import "./components/footer.scss";
 @import "./variables.scss";
 
 * {
@@ -63,6 +64,8 @@ button {
 
 ul {
   list-style-type: none;
+  box-shadow: 0 0 10px;
+  background: $Dark_Grayish_Blue;
 }
 
 // Fall animation on todo remove

@@ -16,14 +16,12 @@
   position: absolute;
   border-radius: 0.2rem;
   top: 15rem;
-  background: #777a92;
   height: 60vh;
   overflow: auto;
 }
 .todoContainer .todo-div {
   display: flex;
   justify-content: space-between;
-  color: black;
   background: #25273c;
   margin-bottom: 0.1rem;
   transition: all 0.5s ease-in-out;
@@ -44,6 +42,16 @@
   font-size: 1.5rem;
 }
 
+@media only screen and (max-width: 768px) {
+  .todoContainer {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .todoContainer {
+    width: 90%;
+  }
+}
 header {
   min-height: 20vh;
   width: 40%;
@@ -52,6 +60,16 @@ header {
   align-items: center;
 }
 
+@media only screen and (max-width: 768px) {
+  header {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  header {
+    width: 90%;
+  }
+}
 form {
   min-height: 20vh;
   width: 40%;
@@ -78,6 +96,46 @@ form input {
   border-bottom-right-radius: 0.3rem;
   outline: none;
   color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+  form {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  form {
+    width: 90%;
+  }
+}
+.footer {
+  background: #25273c;
+  padding: 1.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  color: #4d5066;
+  font-size: 0.9rem;
+}
+.footer .center-div {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 40%;
+}
+.footer .center-div > li {
+  cursor: pointer;
+}
+.footer .center-div > li:hover {
+  color: #e4e5f1;
+}
+.footer .center-div > li:active {
+  color: #3a7bfd;
+}
+.footer p {
+  cursor: pointer;
+}
+.footer p:hover {
+  color: #e4e5f1;
 }
 
 * {
@@ -136,6 +194,8 @@ button {
 
 ul {
   list-style-type: none;
+  box-shadow: 0 0 10px;
+  background: #777a92;
 }
 
 .fall {
