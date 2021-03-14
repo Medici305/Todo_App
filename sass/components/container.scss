@@ -48,3 +48,21 @@
     width: 90%;
   }
 }
+
+// Light mode
+.lightModeUl {
+  background: $Light_Grayish_Blue;
+}
+
+// light-mode
+.lightMode {
+  transition: all .5s ease-in-out;
+  background: $Very_Light_Gray !important;
+  color: $Very_Dark_Grayish_Blue;
+  h1 {
+    color: #fff;
+  }
+  li {
+    color: $Very_Dark_Grayish_Blue !important;
+  }
+}

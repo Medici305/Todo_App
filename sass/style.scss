@@ -40,6 +40,11 @@ h1 {
   letter-spacing: 1.5rem;
 }
 
+h3 {
+  font-weight: 500;
+  margin-right: 0.5rem;
+}
+
 i {
   pointer-events: none;
   font-size: 1.55rem;
@@ -58,7 +63,8 @@ button {
   cursor: pointer;
 }
 
-.fa-circle {
+.fa-circle,
+.fa-times {
   color: $Dark_Grayish_Blue;
 }
 
@@ -68,14 +74,14 @@ ul {
   background: $Dark_Grayish_Blue;
 }
 
+span {
+  display: flex;
+}
+
 // Fall animation on todo remove
 .fall {
   opacity: 0;
   transform: translateX(100%);
-}
-
-.fa-times {
-  color: $Dark_Grayish_Blue;
 }
 
 // check animation
@@ -83,3 +89,4 @@ ul {
   text-decoration: line-through;
   color: $Very_Dark_Grayish_Blue !important;
 }
+

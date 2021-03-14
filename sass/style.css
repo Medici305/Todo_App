@@ -11,6 +11,10 @@
   position: relative;
 }
 
+.lightBg {
+  background-image: url("../images/bg-desktop-light.jpg");
+}
+
 .todoContainer {
   width: 40%;
   position: absolute;
@@ -52,6 +56,22 @@
     width: 90%;
   }
 }
+.lightModeUl {
+  background: #cacde8;
+}
+
+.lightMode {
+  transition: all 0.5s ease-in-out;
+  background: #fafafa !important;
+  color: #4d5066;
+}
+.lightMode h1 {
+  color: #fff;
+}
+.lightMode li {
+  color: #4d5066 !important;
+}
+
 header {
   min-height: 20vh;
   width: 40%;
@@ -170,6 +190,11 @@ h1 {
   letter-spacing: 1.5rem;
 }
 
+h3 {
+  font-weight: 500;
+  margin-right: 0.5rem;
+}
+
 i {
   pointer-events: none;
   font-size: 1.55rem;
@@ -188,7 +213,8 @@ button {
   cursor: pointer;
 }
 
-.fa-circle {
+.fa-circle,
+.fa-times {
   color: #777a92;
 }
 
@@ -198,13 +224,13 @@ ul {
   background: #777a92;
 }
 
+span {
+  display: flex;
+}
+
 .fall {
   opacity: 0;
   transform: translateX(100%);
-}
-
-.fa-times {
-  color: #777a92;
 }
 
 .line {
