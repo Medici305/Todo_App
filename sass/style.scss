@@ -1,10 +1,10 @@
 // Imports
-@import "./components/top.scss";
-@import "./components/container.scss";
-@import "./components/header.scss";
-@import "./components/input.scss";
-@import "./components/footer.scss";
-@import "./variables.scss";
+@import "./components/_top.scss";
+@import "./components/_container.scss";
+@import "./components/_header.scss";
+@import "./components/_input.scss";
+@import "./components/_footer.scss";
+@import "./_variables.scss";
 
 * {
   margin: 0;
@@ -89,4 +89,3 @@ span {
   text-decoration: line-through;
   color: $Very_Dark_Grayish_Blue !important;
 }
-

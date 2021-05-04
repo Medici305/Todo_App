@@ -113,11 +113,6 @@ const clearCompleted = () => {
       item.remove();
     }
   }
-  //   list.forEach((todo) => {
-  //     if (item.children[1].classList.contains("line")) {
-  //       item.remove();
-  //     }
-  //   });
 };
 
 // 5. Save to the local storage
